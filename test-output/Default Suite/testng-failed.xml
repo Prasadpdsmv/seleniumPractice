@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="seleniumPractice(failed)">
+    <classes>
+      <class name="org.example.webpage">
+        <methods>
+          <include name="webpage"/>
+        </methods>
+      </class> <!-- org.example.webpage -->
+    </classes>
+  </test> <!-- seleniumPractice(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
